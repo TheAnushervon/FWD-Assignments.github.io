@@ -1,0 +1,79 @@
+body{
+    background-color : black; 
+    position: static;
+}
+
+#header{
+    width: 100%;
+    height: 110vh; 
+    background-image: url(images/me.jpg);
+    background-size: 30% auto ;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-color:  black;
+}
+
+h1{
+    color: white; 
+}
+
+ul {
+    color :white; 
+}
+.container {
+    padding: 10px, 20%
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    text-align: right;
+
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 40px; 
+}
+
+nav ul li a {
+    color : #fff; 
+    text-decoration: none;
+    font-size: 18px; 
+    position: relative;
+}
+
+nav ul li a::after {
+    content: ''; 
+    width: 0%; 
+    height: 3px; 
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px; 
+    transition:0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text p {
+    color: white;
+    font-size:40px; 
+    font-weight: 600; 
+    
+    
+}
+.header-text{
+margin-top: 13%;
+font-size: 30px;
+padding-left: 60px
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ff0000; 
+}
