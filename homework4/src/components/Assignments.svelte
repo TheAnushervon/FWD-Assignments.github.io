@@ -35,7 +35,7 @@
     <a href = 'index.html' class = "back_button">Back</a> 
     <h1 >Content</h1>
     <a href = "homework2/ass2.html">Assignment-2 (Comix with JS, HTML, CSS)</a>
-    <a href = "homework3/ass3.html">Assignment-3 (Comix with TypeScript)</a>
-    <a href = "homework4/src/main.ts">Assignment-4 (TypeScript+Svelte+Vite)</a>
+    <a href = "homework3/ass3.html">Assignment-3 (Comix with Svelte)</a>
+    <a href = "homework4/main.ts">Assignment-4 (TypeScript+Svelte+Vite)</a>
 </body>
 </html>
