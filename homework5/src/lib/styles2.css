@@ -1,0 +1,8 @@
+body {
+    background-color: black;
+    position: static;
+}
+
+h1, p {
+    color: white ; 
+}
